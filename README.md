@@ -1,4 +1,5 @@
-<video src=".assets/DQN-mountain-car-t-84.mp4" width="640" height="480" controls></video>
+*From below video as you can see DQN found's optimal policy to solve Continuous-State MountainCar problem (takes 84 time-steps)*
+<video src="https://github.com/user-attachments/assets/abd065bf-e143-423a-8d44-c72ef27ce63f" width="640" height="480" controls></video>
 
 # Why this repo
 
