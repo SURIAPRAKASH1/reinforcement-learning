@@ -1,3 +1,5 @@
+<video src=".assets/DQN-mountain-car-t-84.mp4" width="640" height="480" controls></video>
+
 # Why this repo
 
 _Note: Ongoing project ..._
