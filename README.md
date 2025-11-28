@@ -1,17 +1,26 @@
-# Reinforcment Learning:
+# Why this repo
 
-- Implementation of Classical tabular and function approximation methods to advanced policy gradient methods like PPO (from open ai), GRPO (from deepseek). Every algorithm capture core concept for understanding.
+_Note: Ongoing project ..._
 
-# Classical:
+If you’re learning RL or want reproducible baselines, this repo gives hands-on, readable implementations of the algorithms you always hear about in lectures but rarely see in clean, comparable form. It’s focused on intuition and reproducibility rather than fancy libraries — perfect for learning, teaching, or quickly prototyping ideas.
 
-## Tabular Methods:
+# Algorithms & environments implemented
 
-    - Monte Carlo Methods
-    - Temporal Difference-TD(0)
-    - n-step bootstrapping
+## Algorithms
 
-## Functoin approximation:
+- Tabular: Policy Evaluation, Policy Iteration, Value Iteration
 
-    - Gradient Monte Carlo Method
-    - Semi-Gradient TD(0)
-    - Semi-Gradient n-step bootstrapping
+- On-policy control: SARSA (1-step, n-step)
+
+- Off-policy control: Q-learning (1-step, n-step variants)
+
+- Function approximation: Linear value approx, small MLP approximators
+
+- Policy gradient: REINFORCE (+ baseline), Actor-Critic
+
+## Environments
+
+- MountainCar-v0 — classic continuous state, sparse reward
+
+- CliffWalking-v0 — tabular, risky policy behavior
+- Gambler — find optimal policy
